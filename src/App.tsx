@@ -32,7 +32,7 @@ function App() {
         <img src={require('./logo192.png')} className="App-logo" alt="logo" />
         <p>
           Wow, that is a really, REALLY, basic website.
-          But technically, it is a website. 
+          But hey, it's a technically functional website made in two hours on a tuesday morning.
         </p>
       </header>
     </div>
