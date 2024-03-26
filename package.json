@@ -2,7 +2,8 @@
   "name": "pnw-ex",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://JohnRobertStewart.github.io/pnw_ex",
+  "homepage": "https://JohnRobertStewart.github.io/pnw_ex.git",
+
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
