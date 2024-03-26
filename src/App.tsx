@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={require('./logo192.png')} className="App-logo" alt="logo" />
         <p>
           Wow, that is a really, REALLY, basic webpage.
         </p>
