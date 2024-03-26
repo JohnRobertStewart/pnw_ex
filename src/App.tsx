@@ -1,5 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 import './App.css';
 
 function App() {
@@ -8,7 +12,8 @@ function App() {
       <header className="App-header">
         <img src={require('./logo192.png')} className="App-logo" alt="logo" />
         <p>
-          Wow, that is a really, REALLY, basic webpage.
+          Wow, that is a really, REALLY, basic website.
+          But technically, it is a website. 
         </p>
       </header>
     </div>
