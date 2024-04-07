@@ -1,5 +1,8 @@
 import React from 'react';
 import Navbar from "./components/Navbar";
+import Burger from "./components/Burger";
+
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -8,6 +11,7 @@ import {
 import Products from "./pages/products";
 import Info from "./pages/info";
 import Contact from "./pages/contact";
+
 
 import './App.css';
 
@@ -31,8 +35,7 @@ function App() {
       <header className="App-header">
         <img src={require('./logo192.png')} className="App-logo" alt="logo" />
         <p>
-          Wow, that is a really, REALLY, basic website.
-          But hey, it's a technically functional website made in two hours on a tuesday morning.
+          Wow, that's a website alright.
         </p>
       </header>
     </div>
