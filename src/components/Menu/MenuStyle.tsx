@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledMenu = styled.nav`
+export const MenuStyle = styled.nav`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,3 +38,5 @@ export const StyledMenu = styled.nav`
     }
   }
 `;
+
+export default MenuStyle;

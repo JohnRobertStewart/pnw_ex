@@ -1,6 +1,7 @@
 import React from 'react'
-
-import  bool, func  from 'prop-types';
+import styled from 'styled-components';
+import  bool from 'prop-types';
+import  func from 'prop-types';
 import  BurgStyle  from './BurgStyle';
 
 const Burger = ({ open, setOpen, ...props }) => {
@@ -16,9 +17,9 @@ const Burger = ({ open, setOpen, ...props }) => {
   )
 }
 
-Burger.propTypes = {
-  open: bool.isRequired,
-  setOpen: func.isRequired,
+Burger.PropTypes = {
+  open: bool,
+  setOpen: func,
 };
 
 

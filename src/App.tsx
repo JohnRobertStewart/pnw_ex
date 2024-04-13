@@ -1,6 +1,10 @@
 import React from 'react';
 import Navbar from "./components/Navbar";
 import Burger from "./components/Burger";
+import  ThemeProvider  from 'styled-components';
+import   {GlobalStyles}  from './global';
+import { theme } from './theme';
+
 
 
 import {
@@ -17,6 +21,15 @@ import './App.css';
 
 function App() {
   return (
+    <ThemeProvider theme={theme}>
+    <>
+      <GlobalStyles />
+      <div>
+        <h1>Hello. This is burger menu tutorial</h1>
+        <img src="https://image.flaticon.com/icons/svg/2016/2016012.svg" alt="burger icon" />
+        <small>Icon made by Freepik from www.flaticon.com</small>
+      </div>
+    </>
     <Router>
             <Navbar />
             <Routes>              
@@ -40,6 +53,8 @@ function App() {
       </header>
     </div>
     </Router>
+    </ThemeProvider>
+
   );
 }
 
