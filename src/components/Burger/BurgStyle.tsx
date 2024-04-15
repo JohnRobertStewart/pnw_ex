@@ -1,6 +1,5 @@
 import styled from 'styled-components';
-import Burger from '.';
-import open from './Burger'
+import open from './index';
 
 export const BurgStyle = styled.button`
 
@@ -22,7 +21,7 @@ let open;
     
     width: 2rem;
     height: 0.25rem;
-    background: ${({ theme, open }) => open ? theme.primaryDark : theme.primaryLight};
+    background: ${({ theme }) => open ? theme.primaryDark : theme.primaryLight};
     border-radius: 10px;
     transition: all 0.3s linear;
     position: relative;

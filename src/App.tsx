@@ -1,12 +1,9 @@
 import React from 'react';
 import Navbar from "./components/Navbar";
 import Burger from "./components/Burger";
-import  ThemeProvider  from 'styled-components';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
 import   {GlobalStyles}  from './global';
 import { theme } from './theme';
-
-
-
 import {
   BrowserRouter as Router,
   Routes,
@@ -15,9 +12,8 @@ import {
 import Products from "./pages/products";
 import Info from "./pages/info";
 import Contact from "./pages/contact";
-
-
 import './App.css';
+
 
 function App() {
   return (
