@@ -1,6 +1,5 @@
 import React from 'react';
-import Navbar from "./components/Navbar";
-import Burger from "./components/Burger";
+import {Navbar} from "./components/Navbar";
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import   {GlobalStyles}  from './global';
 import { theme } from './theme';
@@ -9,9 +8,6 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Products from "./pages/products";
-import Info from "./pages/info";
-import Contact from "./pages/contact";
 import './App.css';
 
 
@@ -21,8 +17,8 @@ function App() {
     <>
       <GlobalStyles />
       <div>
-        <h1>Hello. This is burger menu tutorial</h1>
-        <img src="https://image.flaticon.com/icons/svg/2016/2016012.svg" alt="burger icon" />
+        <h1>Hello. that is all.</h1>
+        <img src="./public/:p.jpeg" alt="burger icon" />
         <small>Icon made by Freepik from www.flaticon.com</small>
       </div>
     </>
@@ -30,14 +26,8 @@ function App() {
             <Navbar />
             <Routes>              
                 <Route 
-                    path="/info" 
-                    element={<Info />} />
-                <Route
-                    path="/contact"
-                    element={<Contact />}/>
-                <Route 
-                  path="/products" 
-                  element={<Products />} />
+                    path="/compontents/Burger" 
+                    element={<Burger />} />
             </Routes>
       
     <div className="App">
